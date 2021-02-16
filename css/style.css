@@ -66,9 +66,9 @@ h4:before {
     left: -40px;
     content: "";
     display: block;
-    height: 4px;
+    height: 2px;
     background: #888;
-    top: -12px;
+    top: 9px;
 }
 
 h5 {
@@ -319,7 +319,6 @@ a.active {
 
 .table-cell h1, h2, h4 {
     padding: 0;
-    color: #fff;
 }
 
 .table-cell h4:before {
@@ -882,7 +881,7 @@ fieldset {
 }
 
 .portfolio .categories-grid .categories .active {
-    background-color: #b0d9e5;
+    background-color: #e5f0f6;
     border-radius: 5px;
 }
 
