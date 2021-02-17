@@ -1,28 +1,4 @@
-/*
-* Resume template
-* Created by : Ahmed Essa
-* website : www.ahmedessa.net
-*/
-
-
-/* Table of Content
-==================================================
-	- Google fonts & font family -
-	- typography -
-	- General -
-    - Preloader -
-	- Header -
-    - home section -
-    - About section -
-    - experience section -
-    - projects section -
-    - Contact section -
-    - Responsive media queries -
-*/
-
-
-/* Google fonts & font family
-==================================================*/
+/* Google fonts & font family */
 
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
 
@@ -32,16 +8,14 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
-/* ================================
-Imports
-================================= */
+/* mports */
+
 @import url('font-awesome.min.css');
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
 @import url('animate.css');
 
-/* typography
-==================================================*/
+/* typography */
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -75,8 +49,7 @@ h5 {
     text-align: center;
 }
 
-/* General
-==================================================*/
+/* General */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -101,8 +74,7 @@ body {
     height: 20px;
 }
 
-/* preloader
-==================================================*/
+/* preloader */
 
 #preloader {
     position: fixed;
@@ -238,8 +210,7 @@ body {
     }
 }
 
-/* Header
-==================================================*/
+/* Header */
 
 header {
     text-align: center;
@@ -298,8 +269,7 @@ a.active {
     color: #fff;
 }
 
-/* home section
-==================================================*/
+/* home section */
 
 #home {
     background: url(../img/home-bg-2.jpg);
@@ -325,8 +295,7 @@ a.active {
     background: #fff;
 }
 
-/* about section
-==================================================*/
+/* about section */
 
 #about {
     padding: 150px 0;
@@ -376,22 +345,6 @@ a.active {
     filter: grayscale(50%);
 }
 
-/*
-}
-.services-grid h4 {
-    font-size: 1.3em;
-    font-weight: bold;
-    padding: 15px 0;
-    color: #2a404e;
-    text-transform: uppercase;
-}
-.services-grid p {
-    font-size: 15px;
-    color: #7e7e7e;
-    padding: 0 22px;
-}
-*/
-
 .services-grid p {
     line-height: 1.3em;
 }
@@ -401,8 +354,7 @@ a.active {
     padding: 20px 0;
 }
 
-/* experience section
-==================================================*/
+/* experience */
 
 #experience {
     padding: 100px 0;
@@ -486,12 +438,6 @@ a.active {
     font-weight: 700;
 }
 
-/*
-.timeline-event-copy p:not(.timeline-event-thumbnail) {
-    padding-bottom: 1.2em;
-}
-*/
-
 .timeline-event-icon {
     -webkit-transition: -webkit-transform 0.2s ease-in;
     transition: -webkit-transform 0.2s ease-in;
@@ -527,8 +473,7 @@ a.active {
     padding: 0.25em 1em 0.2em 1em;
 }
 
-/* projects section
-==================================================*/
+/* projects */
 
 #projects {
     padding: 100px 0;
@@ -537,7 +482,7 @@ a.active {
 .portfolio .categories-grid span {
     margin-bottom: 30px;
     display: inline-block;
-    padding: 0px 12px;
+    padding: 0px 14px;
 }
 
 .portfolio .categories-grid .categories ul li {
@@ -719,8 +664,7 @@ a.active {
 }
 
 
-/* contact
-==================================================*/
+/* contact */
 
 #contact {
     padding: 0;
@@ -854,7 +798,7 @@ fieldset {
     float:right;
 }
 
-/*show more*/
+/* show more */
 #module div.collapse[aria-expanded="false"] {
   display: block;
   height: 650px !important;
@@ -895,8 +839,7 @@ nav#categories {
     text-align: center;
 }
 
-/* Responsive media queries
-==================================================*/
+/* Responsive media queries */
 
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
@@ -911,6 +854,9 @@ nav#categories {
     }
     .portfolio .categories-grid .categories ul li {
         margin: 0;
+    }
+    nav li a {
+        font-size: 14px;
     }
 }
 
@@ -930,7 +876,7 @@ nav#categories {
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
-        margin: 0px 0;
+        margin: 0 9px;
     }
 }
 
@@ -938,11 +884,11 @@ nav#categories {
     nav li {
         margin: 6px;
     }
-    nav li a {
-        font-size: 10px;
-    }
     .services-grid {
         padding: 0px 0px 20px;
+    }
+    .portfolio .categories-grid .categories ul li {
+        margin: 0 -5px;
     }
 }
 
