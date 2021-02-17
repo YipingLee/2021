@@ -135,6 +135,18 @@ body {
     animation: wink 1s ease-in-out infinite alternate
 }
 
+.top{
+    position: fixed;
+    top: 10%;
+    right: 23%;
+    border-radius: 5px;
+    padding: 0 12px;
+}
+
+.top img {
+    width: 30px;
+}
+
 @media only screen and (min-width:768px) {
     .preloader {
         height: 60px;
@@ -858,6 +870,9 @@ nav#categories {
     nav li a {
         font-size: 14px;
     }
+    .top {
+        right: 3%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -877,6 +892,9 @@ nav#categories {
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 0 9px;
+    }
+    .top {
+        right: 5%;
     }
 }
 
