@@ -118,7 +118,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #425BB5;
+    border: 2px solid #e5e5e5;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
