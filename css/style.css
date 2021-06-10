@@ -47,6 +47,7 @@ h4:before {
 
 h5 {
     text-align: center;
+    font-size: 15px;
 }
 
 /* General */
@@ -339,13 +340,20 @@ a.active {
     color: #d8d8d8;
 }
 
+#skill h5 {
+    color: #fff;
+    font-weight: 700;
+}
+
 #skill p {
     color: #fff;
 }
 
+/*
 .services-sectiongrids {
     text-align: center;
 }
+*/
 
 .software {
     margin: 0px 10px 10px;
@@ -364,6 +372,8 @@ a.active {
 .services-sectiongrids img {
     width: 60px;
     padding: 20px 0;
+    display: block;
+    margin: auto;
 }
 
 /* experience */
